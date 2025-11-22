@@ -32,6 +32,7 @@ DCMotorController::DCMotorController(uint8_t pwmPin,uint8_t forwardPin,uint8_t r
   _forwardPin = forwardPin;
   _reversePin = reversePin;
   isThreeWire = true;
+
 }
 
 
