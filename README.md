@@ -11,14 +11,14 @@ It supports motor drivers that both:
 First, initialize the motor controller with the appropriate pins. If you're using a driver that takes three wires, use the following constructor:
 
 ```
-//                          (PWM-capable pin, Forward pin, Reverse pin)
+//                       (PWM-capable pin, Forward pin, Reverse pin)
 DCMotorController dcMotor(3,                7,          8);
 dcMotor.begin(); 
 ```
 
 Otherwise, if you're using a driver that uses only a single PWM input, input only that pin to the constructor:
 ```
-//                          (PWM-capable pin)
+//                      (PWM-capable pin)
 DCMotorController dcMotor(3);
 dcMotor.begin(); 
 ```
